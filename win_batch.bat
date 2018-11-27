@@ -3,6 +3,7 @@
 "C:\Program Files (x86)\WinSCP\WinSCP.com" ^
   /log="C:\Users\guru\Desktop\winscp_logs\winscplog.log" /ini=nul ^
   /command ^
+    "option confirm off" ^
     "open ftp://nicholasbush2012%%40u.northwestern.edu:Bnji9olqaz%%21@ftp.box.com/ -rawsettings ProxyPort=0" ^
     "put ""F:\\upload\*.*"" ""/__AWAKE_backup/avi/*.*""" ^
     "exit"
