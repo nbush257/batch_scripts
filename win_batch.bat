@@ -11,3 +11,4 @@
 
 pause
 exit /b %WINSCP_RESULT%
+del F:\upload\*.7z.*
