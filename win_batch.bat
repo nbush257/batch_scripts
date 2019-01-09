@@ -9,6 +9,6 @@
     "put ""F:\\upload\*.*"" ""/__AWAKE_backup/avi/*.*""" ^
     "exit"
 
-pause
+
 exit /b %WINSCP_RESULT%
 del F:\upload\*.7z.*

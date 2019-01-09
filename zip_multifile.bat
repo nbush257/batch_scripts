@@ -6,4 +6,3 @@ for %%f in (E:\avi\*.mp4) do (
     7z a -v10g F:/upload/%%~nf.7z %%f
 
 )
-C:/Users/guru/Desktop/win_batch.bat
